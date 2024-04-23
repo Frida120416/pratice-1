@@ -1,0 +1,174 @@
+
+.text img{
+
+max-width: 100%;
+margin:0 ;
+padding:0;
+padding-left: 50px;
+
+
+
+}
+
+.text p{
+  
+    padding: 150px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 20px;
+    font-weight: 700;
+    }
+
+.btn-1{
+ border: 0.5px solid;
+ font-size:20px ;
+ font-weight: 700;
+ padding: 20px 40px 20px 40px ;
+ margin: 0px 0px 30px 50px; 
+ background-color: rgb(255, 255, 255);
+
+}
+.btn-1:active {
+    background-color:#a9e9e1;
+   }
+
+
+.container-fluid-custom-2{
+background-color: #F1FFFD;
+
+    }
+
+.aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    }
+
+
+ /* 樣式適用於所有裝置 */     
+.aboutus img {
+    display: block;
+    margin: 0;
+    padding-top: 50px;
+    max-width: 80%;
+    height: auto;
+    }
+
+/* 平板裝置 */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .aboutus img {
+        max-width: 40%; 
+    }
+}
+      
+/* 當裝置寬度大於1024px時（通常是桌面電腦），樣式將會改變 */
+@media screen and (min-width: 1025px) {
+    .aboutus img {
+        max-width: 20%;
+    }
+}
+
+.aboutus p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 40px;
+    }
+
+.right-text-1 {
+   padding: 40px;
+}
+
+.right-text-1 h1{
+    font-weight: 700;
+    margin-bottom: 30px; 
+}
+
+
+.right-text-1 p{
+    font-weight: 700; 
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* 聯絡我們 */
+
+.form-container {
+    height: 60vh;
+}
+
+.container-fluid-custom-5{
+    background-image: url('pic-3.jpg');
+    background-repeat: no-repeat;
+
+}
+
+.form-container-text{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-weight: 700;
+}
+
+.form-container{
+    padding: 20px 80px 0px 80px;
+    color: #ffffff;
+}
+
+.btn-2{
+    padding: 20px 40px 20px 40px;
+    margin-right: 10px;
+    margin-top: 30px;
+    background-color: #67E2D3;
+    color: #ffffff;
+    border: none;
+}
+
+
+.btn-3{
+    padding: 20px 40px 20px 40px;
+    background-color: #67E2D3;
+    color: #ffffff;
+    border: none;
+}
+
+/* 手機裝置 */
+@media screen and (max-width: 768px) {
+    .pic-6 {
+        max-width: 60%; 
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (min-width: 768px)and (max-width: 1024px) {
+    .form-container-text {
+        padding: 0px 60px 0px 60px; 
+        
+    }
+
+}
+
+@media screen and (max-width: 396px) {
+    .btn-2 {
+        padding: 10px 20px 10px 20px; 
+        margin-top: 0;
+
+    }
+    .btn-3 {
+        padding: 10px 20px 10px 20px; 
+
+    }
+
+}
+
+.footer{
+    background-color: #67E2D3;
+ 
+    
+}
+
